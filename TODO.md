@@ -14,7 +14,7 @@
     >- Utilisateur : Visiteur inscrit
     >- Administrateur : Gestion des données
 - [x] Arborescence
-    >Fourni par [Website Template](https://github.com/Hellebore-jpg/template_website) par [Hellebore-jpg](https://github.com/Hellebore-jpg)
+    >Fournie par [Website Template](https://github.com/Hellebore-jpg/template_website) par [Hellebore-jpg](https://github.com/Hellebore-jpg)
 
 ## Configuration
 - [x] Configuration de XAMPP
