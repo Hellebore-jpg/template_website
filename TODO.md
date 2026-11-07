@@ -2,7 +2,7 @@
 
 ## Sommaire
 - [Kick off](#kick-off)
-- [v0.1](#v01)
+- [v1.0](#v01)
 
 # Kick off
 >{Date de la création du projet}
@@ -19,7 +19,7 @@
 ## Configuration
 - [x] Configuration de XAMPP
 
-# V0.1
+# V1.0
 >{Date du début du développement de la v0.1} - {Date de la fin du développement de la v0.1}
 
 ## Objectifs
