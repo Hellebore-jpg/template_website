@@ -1,0 +1,24 @@
+<FilesMatch "^(README|TODO)\.md$">
+    Require all denied
+</FilesMatch>
+
+# Gestion des pages d'erreurs
+ErrorDocument 400 /error/400
+ErrorDocument 401 /error/401
+ErrorDocument 403 /error/403
+ErrorDocument 404 /error/404
+ErrorDocument 405 /error/405
+ErrorDocument 429 /error/429
+ErrorDocument 500 /error/500
+ErrorDocument 502 /error/502
+ErrorDocument 503 /error/503
+ErrorDocument 504 /error/504
+
+RewriteEngine On
+
+# Si le fichier ou dossier demandé existe (css, js, images...), on le sert tel quel
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+
+# Sinon, tout passe par index.php
+RewriteRule ^(.*)$ index.php?url=$1 [QSA,L]

@@ -1,0 +1,40 @@
+{
+  "website_title": "Website Template",
+  "page_title": "Website Template | Modèle",
+  "page_description": "Modèle d'arborescence et de fichiers de base pour le développement d'un site web.",
+  "home": {
+    "page_title": "Website Template | Accueil",
+    "page_description": "Modèle d'arborescence et de fichiers de base pour le développement d'un site web."
+  },
+  "header": {
+    "nav_home": "Accueil",
+    "about": "À propos",
+    "git": "Github"
+  },
+  "errors": {
+    "back_home": "Retour à l'accueil",
+    "400_title": "Requête invalide",
+    "400_text": "Le serveur n'a pas compris votre requête. Vérifiez l'adresse et réessayez.",
+    "401_title": "Authentification requise",
+    "401_text": "Vous devez vous connecter pour accéder à cette page.",
+    "403_title": "Accès refusé",
+    "403_text": "Vous n'avez pas l'autorisation de consulter cette page.",
+    "404_title": "Page introuvable",
+    "404_text": "La page que vous cherchez n'existe pas ou a été déplacée.",
+    "405_title": "Méthode non autorisée",
+    "405_text": "Cette page n'accepte pas le type de requête envoyé.",
+    "429_title": "Trop de requêtes",
+    "429_text": "Vous avez envoyé trop de requêtes en peu de temps. Patientez un instant puis réessayez.",
+    "500_title": "Erreur serveur",
+    "500_text": "Un problème est survenu de notre côté. Veuillez réessayer plus tard.",
+    "502_title": "Mauvaise passerelle",
+    "502_text": "Le serveur a reçu une réponse invalide d'un autre serveur. Veuillez réessayer dans quelques instants.",
+    "503_title": "Service indisponible",
+    "503_text": "Le site est temporairement indisponible, peut-être pour maintenance. Revenez bientôt.",
+    "504_title": "Délai d'attente dépassé",
+    "504_text": "Le serveur a mis trop de temps à répondre. Veuillez réessayer dans un instant."
+  },
+  "footer": {
+    "copyrights": "Tous droits réversés"
+  }
+}

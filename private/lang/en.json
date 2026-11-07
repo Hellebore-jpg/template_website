@@ -1,0 +1,40 @@
+{
+  "website_title": "Website Template",
+  "page_title": "Website Template | Template",
+  "page_description": "Website filesystem template for website development.",
+  "home": {
+    "page_title": "Website Template | Home",
+    "page_description": "Website filesystem template for website development."
+  },
+  "header": {
+    "nav_home": "Home",
+    "about": "About",
+    "git": "Github"
+  },
+  "errors": {
+    "back_home": "Back to home",
+    "400_title": "Bad request",
+    "400_text": "The server couldn't understand your request. Check the address and try again.",
+    "401_title": "Authentication required",
+    "401_text": "You need to sign in to access this page.",
+    "403_title": "Access denied",
+    "403_text": "You don't have permission to view this page.",
+    "404_title": "Page not found",
+    "404_text": "The page you are looking for doesn't exist or has been moved.",
+    "405_title": "Method not allowed",
+    "405_text": "This page doesn't accept the type of request that was sent.",
+    "429_title": "Too many requests",
+    "429_text": "You've sent too many requests in a short time. Please wait a moment and try again.",
+    "500_title": "Server error",
+    "500_text": "Something went wrong on our side. Please try again later.",
+    "502_title": "Bad gateway",
+    "502_text": "The server received an invalid response from another server. Please try again in a few moments.",
+    "503_title": "Service unavailable",
+    "503_text": "The site is temporarily unavailable, possibly for maintenance. Please come back soon.",
+    "504_title": "Gateway timeout",
+    "504_text": "The server took too long to respond. Please try again shortly."
+  },
+  "footer": {
+    "copyrights": "All rights reserved"
+  }
+}

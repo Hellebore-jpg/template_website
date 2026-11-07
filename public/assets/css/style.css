@@ -1,0 +1,54 @@
+/* Définissez le style global de votre site ici */
+
+@font-face {
+    font-family: "Textfont";
+    src: url("/assets/font/jetbrains-mono.regular.ttf") format("truetype");
+    font-display: swap;
+}
+
+/* polices et couleurs du site, utilisable n'importe où */
+:root {
+    --bg: #ffffff; /* Arrière plan */
+    --head: #ffffff; /* Arrière plan de l'entête */
+    --white: #e8e8ed;
+    --less-accent: #000f09;
+    --accent: #004d30; /* Couleur "signature" du site */
+
+    --grayish: #a6a6a8;
+    --t-dark: #0000007f;
+    --t-white: #e8e8ed7f;
+
+    --textfont: "Textfont", monospace;
+}
+
+*, *::before, *::after { box-sizing: border-box; }
+
+html {
+    scroll-behavior: smooth;
+    scroll-padding-top: 100px;
+}
+
+body {
+    margin: 0;
+    font-family: var(--textfont);
+    position: relative;
+    isolation: isolate;
+    min-height: 100vh;
+    flex-direction: column;
+    display: flex;
+}
+
+img { max-width: 100%; }
+main { flex: 1; }
+
+/* Petits écrans et accessibilité */
+
+/*
+@media (max-width: 780px) {
+
+}
+*/
+
+@media (prefers-reduced-motion: reduce) {
+    * { scroll-behavior: auto; }
+}
