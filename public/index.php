@@ -12,11 +12,11 @@ $request = preg_replace('#[^a-zA-Z0-9\-/]#', '', $request);
 $request = trim(preg_replace('#/+#', '/', $request), '/');
 $parts = $request === '' ? [] : explode('/', $request);
 if (!$parts || !in_array($parts[0], SUPPORTED_LANGS, true)) {
-    header('Location: /' . preferredLang() . '/' . ($request ?: 'accueil'), true, 302);
+    header('Location: /' . preferredLang() . '/' . ($request ?: 'home'), true, 302);
     exit;
 }
 loadLang(array_shift($parts));
-if (!$parts) $parts = ['accueil'];
+if (!$parts) $parts = ['home'];
 define('PAGE_PATH', implode('/', $parts));
 
 // Séparation de l'URL pour trouver le paramètre d'ID au format {page}/[id}
@@ -30,7 +30,6 @@ $page = implode('/', $parts);
 // Routeur d'URL propres vers les fichiers
 switch ($page) {
     case 'home':
-    case 'accueil':
         include $ROOT . 'pages/home.php';
         break;
     default:

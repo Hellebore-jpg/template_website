@@ -2,7 +2,7 @@
 
 ## Sommaire
 - [Kick off](#kick-off)
-- [v1.0](#v01)
+- [v1.0](#v10)
 
 # Kick off
 >{Date de la création du projet}
@@ -20,22 +20,22 @@
 - [x] Configuration de XAMPP
 
 # V1.0
->{Date du début du développement de la v0.1} - {Date de la fin du développement de la v0.1}
+>{Date du début du développement de la v1.0} - {Date de la fin du développement de la v1.0}
 
 ## Objectifs
 - [x] Pages statiques html + css + js
     - [x] header & footer
-    - [x] /home|accueil
+    - [x] /home
     - [x] /400|403|404|500|501|502|503|504
 - [x] Base de données MySQL
 - [x] Pages dynamiques PHP
     - [x] Auto-importation
     - [x] index.php
-    - [x] /home|accueil
+    - [x] /home
 - [x] Langues
     - [x] Français
     - [x] Anglais
 - [x] Fichiers .htaccess
 - [x] Vérification du responsive
-- [x] Rédaction du README.md
+- [x] Rédaction du [README](/README.md)
 - [x] Derniers fix & Publication
