@@ -18,6 +18,7 @@ Modèle d'arborescence et de fichiers de base pour le développement d'un site w
 - [Crédits](#crédits)
     - [APIs et Dépendences](#apis-et-dépendences)
     - [Ressources](#ressources)
+- [Licence](#licence)
 
 ## Fonctionnalités
 
@@ -143,3 +144,8 @@ Fabriqué avec [Website Template](https://github.com/Hellebore-jpg/template_webs
 - [Image-1](#lien-vers-le-site)
 - [Image-2](#lien-vers-le-site)
 - [Image-3](#lien-vers-le-site)
+- 
+## License
+
+Ce projet est sous licence MIT.
+Voir le fichier [LICENSE](LICENSE) pour le texte intégral.
