@@ -145,7 +145,7 @@ Fabriqué avec [Website Template](https://github.com/Hellebore-jpg/template_webs
 - [Image-2](#lien-vers-le-site)
 - [Image-3](#lien-vers-le-site)
 - 
-## License
+## Licence
 
 Ce projet est sous licence MIT.
 Voir le fichier [LICENSE](LICENSE) pour le texte intégral.
