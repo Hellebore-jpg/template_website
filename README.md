@@ -59,6 +59,7 @@ Les outils suivants sont nécessaires pour installer et exécuter le projet.
 |--------------------|----------------------------------------------------------------|------------------------------------------------------------------|
 | Navigateur moderne | Affichage du site (Chrome, Brave, Firefox…, JavaScript activé) | -                                                                |
 | XAMPP              | Serveur web (Apache), PHP et base de données (MySQL)           | [apachefriends.org](https://www.apachefriends.org/download.html) |
+| Git                | Récupération du dépôt                                          | [git-scm.com](https://git-scm.com/downloads)                     |
 
 ### Optionnel
 
@@ -137,6 +138,7 @@ Le panneau d'administration est disponible à l'adresse `/chemin/vers/admin`, un
 template_website/
 ├── private/                    # Code PHP, identifiants et ressources téléversées
 │   ├── lang/                   # Fichiers de traduction
+│   │
 │   ├── src/                    # Pages et code
 │   │   ├── pages/              # Pages web
 │   │   ├── php/                # Scripts PHP
@@ -172,12 +174,12 @@ Projet réalisé par [Hellebore-jpg](https://github.com/Hellebore-jpg) dans le c
 <!-- Développement en équipe
 Projet réalisé par {Nombre} collaborateurs dans le cadre du projet **{Nom du projet}** à **{Lieu}**, en {Année}.
 
-| Collaborateur  | Rôle           | GitHub                                           |
-|----------------|----------------|--------------------------------------------------|
-| {Prénom}       | Chef de projet | [@Vous](https://github.com/Vous)                 |
-| {Prénom}       | {Rôle}         | [@Collaborateur-2](https://github.com/Collaborateur-2) |
-| {Prénom}       | {Rôle}         | [@Collaborateur-3](https://github.com/Collaborateur-3) |
-| {Prénom}       | {Rôle}         | [@Collaborateur-etc](https://github.com/Collaborateur-etc) |
+| Collaborateur | Rôle           | GitHub                                                     |
+|---------------|----------------|------------------------------------------------------------|
+| {Prénom}      | Chef de projet | [@Vous](https://github.com/Vous)                           |
+| {Prénom}      | {Rôle}         | [@Collaborateur-2](https://github.com/Collaborateur-2)     |
+| {Prénom}      | {Rôle}         | [@Collaborateur-3](https://github.com/Collaborateur-3)     |
+| {Prénom}      | {Rôle}         | [@Collaborateur-etc](https://github.com/Collaborateur-etc) |
 -->
 
 ---
@@ -188,11 +190,11 @@ Fabriqué avec [Website Template](https://github.com/Hellebore-jpg/template_webs
 
 ### APIs et dépendances
 
-| Dépendance | Utilisation     | Documentation                  |
-|------------|-----------------|--------------------------------|
-| {API}      | {Utilisation}   | [{Nom}](#lien-vers-le-site)    |
-| {Module}   | {Utilisation}   | [{Nom}](#lien-vers-le-site)    |
-| {Script}   | {Utilisation}   | [{Nom}](#lien-vers-le-site)    |
+| Dépendance | Utilisation   | Documentation               |
+|------------|---------------|-----------------------------|
+| {API}      | {Utilisation} | [{Nom}](#lien-vers-le-site) |
+| {Module}   | {Utilisation} | [{Nom}](#lien-vers-le-site) |
+| {Script}   | {Utilisation} | [{Nom}](#lien-vers-le-site) |
 
 ### Ressources
 
