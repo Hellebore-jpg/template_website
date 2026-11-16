@@ -8,7 +8,7 @@
 >{Date de création du projet}
 
 ## Organisation
-- [x] Création du dépôt GitHub
+- [x] Création du repo GitHub
 - [x] Définition des acteurs
     >- Visiteur : Consultation publique
     >- Utilisateur : Visiteur inscrit
@@ -19,7 +19,7 @@
 ## Configuration
 - [x] Configuration de XAMPP
 
-# V1.0.0
+# v1.0.0
 >{Date de début du développement de la v1.0.0} - {Date de fin du développement de la v1.0.0}
 
 ## Objectifs
